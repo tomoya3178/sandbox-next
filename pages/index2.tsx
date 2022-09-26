@@ -1,8 +1,11 @@
-import { Button } from '@chakra-ui/react'
+import { Button, HStack } from '@chakra-ui/react'
 import { NextPage } from 'next'
 
 const Home: NextPage = () => {
-  return <Button colorScheme='blue'>Button</Button>
+  return <HStack>
+      <Button colorScheme='blue'>Button</Button>
+      <Button colorScheme='blue'>Button</Button>
+    </ HStack>
 }
 
 export default Home
